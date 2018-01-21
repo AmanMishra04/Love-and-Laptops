@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivnath.loveandlaptop.MainActivity"
+    android:background="#0f1a20">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/love" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We need your"
+            android:textSize="30dp"
+            android:textColor="#f6fafd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Love."
+            android:textSize="30dp"
+            android:textColor="#ff0000" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(and some Laptops)"
+        android:layout_gravity="center"
+        android:textColor="#f6fafd"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate your old or spare laptop to an underpriveleged gril who's been denied an  education, and give her the opportunity to learn software to better her employability and quality of life."
+        android:textSize="20dp"
+        android:textColor="#f6fafd"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="We'll arrange pickup at your convenience"
+    android:textSize="19dp"
+    android:layout_gravity="center"
+    android:textColor="#f6fafd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give us a call at +91 9958003242"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#f6fafd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn more about our mission at navgurukul"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#f6fafd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:gravity="center"/>
+
+    <Button
+        android:background="#3091c8"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#ff0000"
+        android:text="Donate"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:onClick="saythakyou"
+        android:id="@+id/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you!!"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#f6fafd"
+        android:visibility="invisible"
+        android:id="@+id/text"/>
+</LinearLayout>
